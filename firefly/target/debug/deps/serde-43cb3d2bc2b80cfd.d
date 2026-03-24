@@ -1,0 +1,14 @@
+C:\Users\sampr\Documents\Programs\FireFly\firefly\target\debug\deps\serde-43cb3d2bc2b80cfd.d: C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\sampr\Documents\Programs\FireFly\firefly\target\debug\build\serde-56fd8b4a555e5a5f\out/private.rs
+
+C:\Users\sampr\Documents\Programs\FireFly\firefly\target\debug\deps\libserde-43cb3d2bc2b80cfd.rlib: C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\sampr\Documents\Programs\FireFly\firefly\target\debug\build\serde-56fd8b4a555e5a5f\out/private.rs
+
+C:\Users\sampr\Documents\Programs\FireFly\firefly\target\debug\deps\libserde-43cb3d2bc2b80cfd.rmeta: C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\sampr\Documents\Programs\FireFly\firefly\target\debug\build\serde-56fd8b4a555e5a5f\out/private.rs
+
+C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs:
+C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs:
+C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs:
+C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs:
+C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs:
+C:\Users\sampr\Documents\Programs\FireFly\firefly\target\debug\build\serde-56fd8b4a555e5a5f\out/private.rs:
+
+# env-dep:OUT_DIR=C:\\Users\\sampr\\Documents\\Programs\\FireFly\\firefly\\target\\debug\\build\\serde-56fd8b4a555e5a5f\\out

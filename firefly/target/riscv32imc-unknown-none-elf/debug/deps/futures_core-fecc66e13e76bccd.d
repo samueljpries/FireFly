@@ -1,0 +1,10 @@
+C:\Users\sampr\Documents\Programs\FireFly\firefly\target\riscv32imc-unknown-none-elf\debug\deps\futures_core-fecc66e13e76bccd.d: C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-core-0.3.32\src\lib.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-core-0.3.32\src\future.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-core-0.3.32\src\stream.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-core-0.3.32\src\task\mod.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-core-0.3.32\src\task\poll.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-core-0.3.32\src\task\__internal\mod.rs
+
+C:\Users\sampr\Documents\Programs\FireFly\firefly\target\riscv32imc-unknown-none-elf\debug\deps\libfutures_core-fecc66e13e76bccd.rmeta: C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-core-0.3.32\src\lib.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-core-0.3.32\src\future.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-core-0.3.32\src\stream.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-core-0.3.32\src\task\mod.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-core-0.3.32\src\task\poll.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-core-0.3.32\src\task\__internal\mod.rs
+
+C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-core-0.3.32\src\lib.rs:
+C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-core-0.3.32\src\future.rs:
+C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-core-0.3.32\src\stream.rs:
+C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-core-0.3.32\src\task\mod.rs:
+C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-core-0.3.32\src\task\poll.rs:
+C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-core-0.3.32\src\task\__internal\mod.rs:

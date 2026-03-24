@@ -1,0 +1,17 @@
+[package]
+name = "drone_firmware"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+embassy-executor = { version = "0.6", features = ["task-arena-size-20480"] }
+embassy-sync = "0.6"
+embassy-time = "0.3"
+embedded-hal = "1.0"
+static_cell = "2.1"
+heapless = "0.8"
+critical-section = "1.2"
+libm = "0.2"
+
+esp-hal = { version = "0.22", features = ["esp32c3"] }
+esp-hal-embassy = { version = "0.5", features = ["esp32c3"] }

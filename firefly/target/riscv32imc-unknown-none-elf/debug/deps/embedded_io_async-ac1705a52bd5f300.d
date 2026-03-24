@@ -1,0 +1,9 @@
+C:\Users\sampr\Documents\Programs\FireFly\firefly\target\riscv32imc-unknown-none-elf\debug\deps\embedded_io_async-ac1705a52bd5f300.d: C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-io-async-0.6.1\src\lib.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-io-async-0.6.1\src\impls\mod.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-io-async-0.6.1\src\impls\slice_mut.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-io-async-0.6.1\src\impls\slice_ref.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-io-async-0.6.1\src\../README.md
+
+C:\Users\sampr\Documents\Programs\FireFly\firefly\target\riscv32imc-unknown-none-elf\debug\deps\libembedded_io_async-ac1705a52bd5f300.rmeta: C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-io-async-0.6.1\src\lib.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-io-async-0.6.1\src\impls\mod.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-io-async-0.6.1\src\impls\slice_mut.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-io-async-0.6.1\src\impls\slice_ref.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-io-async-0.6.1\src\../README.md
+
+C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-io-async-0.6.1\src\lib.rs:
+C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-io-async-0.6.1\src\impls\mod.rs:
+C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-io-async-0.6.1\src\impls\slice_mut.rs:
+C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-io-async-0.6.1\src\impls\slice_ref.rs:
+C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-io-async-0.6.1\src\../README.md:
