@@ -1,22 +1,18 @@
-use crate::types::BatterySample;
+use crate::types::PowerState;
 
 pub trait BatteryMonitor {
-    fn read(&mut self) -> BatterySample;
+    fn read(&mut self) -> Result<PowerState, BatteryError>;
 }
 
-pub struct DummyBattery;
-
-impl DummyBattery {
-    pub const fn new() -> Self {
-        Self
-    }
+#[derive(Debug)]
+pub enum BatteryError {
+    ReadError,
 }
 
-impl BatteryMonitor for DummyBattery {
-    fn read(&mut self) -> BatterySample {
-        BatterySample {
-            voltage_v: 11.8,
-            current_a: 4.2,
-        }
+pub struct DummyBatteryMonitor;
+
+impl BatteryMonitor for DummyBatteryMonitor {
+    fn read(&mut self) -> Result<PowerState, BatteryError> {
+        Ok(PowerState::default())
     }
 }

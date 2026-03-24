@@ -506,8 +506,6 @@ cargo:rerun-if-env-changed=ESP_HAL_PLACE_SPI_DRIVER_IN_RAM
 cargo:rerun-if-env-changed=ESP_HAL_SPI_ADDRESS_WORKAROUND
 cargo:rerun-if-env-changed=ESP_HAL_PLACE_SWITCH_TABLES_IN_RAM
 cargo:rerun-if-env-changed=ESP_HAL_PLACE_ANON_IN_RAM
-cargo:rustc-check-cfg=cfg(place_spi_driver_in_ram)
-cargo:rustc-env=ESP_HAL_PLACE_SPI_DRIVER_IN_RAM=false
 cargo:rustc-check-cfg=cfg(place_switch_tables_in_ram)
 cargo:rustc-cfg=place_switch_tables_in_ram
 cargo:rustc-env=ESP_HAL_PLACE_SWITCH_TABLES_IN_RAM=true
@@ -516,3 +514,5 @@ cargo:rustc-cfg=spi_address_workaround
 cargo:rustc-env=ESP_HAL_SPI_ADDRESS_WORKAROUND=true
 cargo:rustc-check-cfg=cfg(place_anon_in_ram)
 cargo:rustc-env=ESP_HAL_PLACE_ANON_IN_RAM=false
+cargo:rustc-check-cfg=cfg(place_spi_driver_in_ram)
+cargo:rustc-env=ESP_HAL_PLACE_SPI_DRIVER_IN_RAM=false

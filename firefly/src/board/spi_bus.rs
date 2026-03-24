@@ -1,2 +1,2 @@
 #[derive(Debug, Default)]
-pub struct Spi_busConfig;
+pub struct SpiBusConfig;

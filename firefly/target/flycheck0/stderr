@@ -1,33 +1,5 @@
-   0.086844900s  INFO prepare_target{force=false package_id=drone_firmware v0.1.0 (C:\Users\sampr\Documents\Programs\FireFly\firefly) target="drone_firmware"}: cargo::core::compiler::fingerprint: fingerprint error for drone_firmware v0.1.0 (C:\Users\sampr\Documents\Programs\FireFly\firefly)/Check { test: false }/TargetInner { name: "drone_firmware", doc: true, ..: with_path("C:\\Users\\sampr\\Documents\\Programs\\FireFly\\firefly\\src\\main.rs", Edition2021) }
-   0.086898700s  INFO prepare_target{force=false package_id=drone_firmware v0.1.0 (C:\Users\sampr\Documents\Programs\FireFly\firefly) target="drone_firmware"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\sampr\Documents\Programs\FireFly\firefly\target\riscv32imc-unknown-none-elf\debug\.fingerprint\drone_firmware-54317ab4defe77f9\bin-drone_firmware`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_libgit2_prerelease
-  12: <unknown>
-  13: <unknown>
-  14: <unknown>
-  15: <unknown>
-  16: git_midx_writer_dump
-  17: git_filter_source_repo
-  18: git_midx_writer_dump
-  19: BaseThreadInitThunk
-  20: RtlUserThreadStart
-   0.117710900s  INFO prepare_target{force=false package_id=drone_firmware v0.1.0 (C:\Users\sampr\Documents\Programs\FireFly\firefly) target="drone_firmware"}: cargo::core::compiler::fingerprint: fingerprint error for drone_firmware v0.1.0 (C:\Users\sampr\Documents\Programs\FireFly\firefly)/Check { test: true }/TargetInner { name: "drone_firmware", doc: true, ..: with_path("C:\\Users\\sampr\\Documents\\Programs\\FireFly\\firefly\\src\\main.rs", Edition2021) }
-   0.117735400s  INFO prepare_target{force=false package_id=drone_firmware v0.1.0 (C:\Users\sampr\Documents\Programs\FireFly\firefly) target="drone_firmware"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\sampr\Documents\Programs\FireFly\firefly\target\riscv32imc-unknown-none-elf\debug\.fingerprint\drone_firmware-7b86f69d9df31363\test-bin-drone_firmware`
+   0.163358300s  INFO prepare_target{force=false package_id=drone_firmware v0.1.0 (C:\Users\sampr\Documents\Programs\FireFly\firefly) target="drone_firmware"}: cargo::core::compiler::fingerprint: fingerprint error for drone_firmware v0.1.0 (C:\Users\sampr\Documents\Programs\FireFly\firefly)/Check { test: true }/TargetInner { name: "drone_firmware", doc: true, ..: with_path("C:\\Users\\sampr\\Documents\\Programs\\FireFly\\firefly\\src\\main.rs", Edition2021) }
+   0.163406700s  INFO prepare_target{force=false package_id=drone_firmware v0.1.0 (C:\Users\sampr\Documents\Programs\FireFly\firefly) target="drone_firmware"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\sampr\Documents\Programs\FireFly\firefly\target\riscv32imc-unknown-none-elf\debug\.fingerprint\drone_firmware-0d5e87c965e8667e\test-bin-drone_firmware`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -63,6 +35,4 @@ WARNING: use --release
   peripherals and/or devices.
 
     Checking drone_firmware v0.1.0 (C:\Users\sampr\Documents\Programs\FireFly\firefly)
-error: could not compile `drone_firmware` (bin "drone_firmware" test) due to 6 previous errors; 2 warnings emitted
-warning: build failed, waiting for other jobs to finish...
-error: could not compile `drone_firmware` (bin "drone_firmware") due to 5 previous errors; 2 warnings emitted
+error: could not compile `drone_firmware` (bin "drone_firmware" test) due to 1 previous error

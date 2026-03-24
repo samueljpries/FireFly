@@ -1,28 +1,18 @@
 use crate::types::MotorCommand;
 
 pub trait MotorOutput {
-    fn write(&mut self, cmd: MotorCommand);
+    fn write(&mut self, cmd: MotorCommand) -> Result<(), MotorError>;
 }
 
-pub struct DummyMotorOutput {
-    pub last: MotorCommand,
+#[derive(Debug)]
+pub enum MotorError {
+    WriteError,
 }
 
-impl DummyMotorOutput {
-    pub const fn new() -> Self {
-        Self {
-            last: MotorCommand {
-                m1: 0.0,
-                m2: 0.0,
-                m3: 0.0,
-                m4: 0.0,
-            },
-        }
-    }
-}
+pub struct DummyMotorOutput;
 
 impl MotorOutput for DummyMotorOutput {
-    fn write(&mut self, cmd: MotorCommand) {
-        self.last = cmd;
+    fn write(&mut self, _cmd: MotorCommand) -> Result<(), MotorError> {
+        Ok(())
     }
 }

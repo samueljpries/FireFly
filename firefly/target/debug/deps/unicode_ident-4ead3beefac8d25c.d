@@ -1,8 +1,0 @@
-C:\Users\sampr\Documents\Programs\FireFly\firefly\target\debug\deps\unicode_ident-4ead3beefac8d25c.d: C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-ident-1.0.24\src\lib.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-ident-1.0.24\src\tables.rs
-
-C:\Users\sampr\Documents\Programs\FireFly\firefly\target\debug\deps\libunicode_ident-4ead3beefac8d25c.rlib: C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-ident-1.0.24\src\lib.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-ident-1.0.24\src\tables.rs
-
-C:\Users\sampr\Documents\Programs\FireFly\firefly\target\debug\deps\libunicode_ident-4ead3beefac8d25c.rmeta: C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-ident-1.0.24\src\lib.rs C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-ident-1.0.24\src\tables.rs
-
-C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-ident-1.0.24\src\lib.rs:
-C:\Users\sampr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-ident-1.0.24\src\tables.rs:

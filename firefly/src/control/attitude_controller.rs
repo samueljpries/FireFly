@@ -1,4 +1,7 @@
-use crate::{control::pid::Pid, types::{AttitudeTarget, RateTarget, VehicleState}};
+use crate::{
+    control::pid::Pid,
+    types::{AttitudeTarget, RateTarget, VehicleState},
+};
 
 pub struct AttitudeController {
     roll: Pid,
@@ -17,8 +20,8 @@ impl Default for AttitudeController {
 impl AttitudeController {
     pub fn update(&mut self, target: AttitudeTarget, state: VehicleState, dt: f32) -> RateTarget {
         RateTarget {
-            roll_rate_rads: self.roll.update(target.roll_rad, state.roll_rad, dt),
-            pitch_rate_rads: self.pitch.update(target.pitch_rad, state.pitch_rad, dt),
+            roll_rate_rads: self.roll.update(target.roll_rad, state.roll, dt),
+            pitch_rate_rads: self.pitch.update(target.pitch_rad, state.pitch, dt),
             yaw_rate_rads: target.yaw_rate_rads,
             throttle: target.throttle,
         }

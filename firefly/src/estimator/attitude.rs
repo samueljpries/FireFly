@@ -31,12 +31,13 @@ impl ComplementaryAttitudeEstimator {
         self.pitch = self.alpha * self.pitch + (1.0 - self.alpha) * accel_pitch;
 
         VehicleState {
-            roll_rad: self.roll,
-            pitch_rad: self.pitch,
-            yaw_rad: self.yaw,
-            roll_rate_rads: sample.gyro_rads[0],
-            pitch_rate_rads: sample.gyro_rads[1],
-            yaw_rate_rads: sample.gyro_rads[2],
+            roll: self.roll,
+            pitch: self.pitch,
+            yaw: self.yaw,
+            roll_rate: sample.gyro_rads[0],
+            pitch_rate: sample.gyro_rads[1],
+            yaw_rate: sample.gyro_rads[2],
+            altitude_m: 0.0,
             battery_v,
         }
     }

@@ -1,3 +1,0 @@
-cargo:rustc-link-search=C:\Users\sampr\Documents\Programs\FireFly\firefly\target\riscv32imc-unknown-none-elf\debug\build\esp32c3-5def0def357814c9\out
-cargo:rerun-if-changed=device.x
-cargo:rerun-if-changed=build.rs

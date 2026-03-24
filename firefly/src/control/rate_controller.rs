@@ -18,9 +18,9 @@ impl Default for RateController {
 
 impl RateController {
     pub fn update(&mut self, target: RateTarget, state: VehicleState, dt: f32) -> MotorCommand {
-        let roll = self.roll.update(target.roll_rate_rads, state.roll_rate_rads, dt);
-        let pitch = self.pitch.update(target.pitch_rate_rads, state.pitch_rate_rads, dt);
-        let yaw = self.yaw.update(target.yaw_rate_rads, state.yaw_rate_rads, dt);
+        let roll = self.roll.update(target.roll_rate_rads, state.roll_rate, dt);
+        let pitch = self.pitch.update(target.pitch_rate_rads, state.pitch_rate, dt);
+        let yaw = self.yaw.update(target.yaw_rate_rads, state.yaw_rate, dt);
 
         MotorCommand {
             m1: target.throttle + roll - pitch + yaw,

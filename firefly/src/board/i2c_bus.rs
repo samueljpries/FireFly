@@ -1,2 +1,2 @@
 #[derive(Debug, Default)]
-pub struct I2c_busConfig;
+pub struct I2cBusConfig;

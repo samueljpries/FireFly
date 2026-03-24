@@ -1,7 +1,7 @@
 error[E0463]: can't find crate for `std`
   |
   = note: the `riscv32imc-unknown-none-elf` target may not support the standard library
-  = note: `std` is required by `autocfg_e3eec591b42425c3_0` because it does not declare `#![no_std]`
+  = note: `std` is required by `autocfg_ce6497e7ec0f11e3_0` because it does not declare `#![no_std]`
 
 error: cannot resolve a prelude import
 
