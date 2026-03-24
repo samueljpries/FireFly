@@ -1,3 +1,5 @@
+use core::f32::NAN;
+
 #[derive(Debug, Clone, Copy)]
 pub struct Pid {
     kp: f32,
@@ -24,7 +26,7 @@ impl Pid {
 
     pub fn update(&mut self, setpoint: f32, measurement: f32, dt: f32) -> f32 {
         let error = setpoint - measurement;
-        self.integral += error * dt;
+        self.integral += error * dt; //
         let derivative = (error - self.prev_error) / dt.max(1e-6);
         self.prev_error = error;
         let out = self.kp * error + self.ki * self.integral + self.kd * derivative;
@@ -34,5 +36,9 @@ impl Pid {
     pub fn reset(&mut self) {
         self.integral = 0.0;
         self.prev_error = 0.0;
+    }
+    pub fn reset_integral(&mut self) {
+        self.integral = 0.0;
+        let derivative = NAN; // Force derivative to be NaN on next update to prevent derivative kick
     }
 }
